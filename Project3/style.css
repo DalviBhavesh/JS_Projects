@@ -1,0 +1,70 @@
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-image: url("image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    font-family:fantasy;
+    font-weight: 100;
+    font-size: x-large;
+}
+
+
+
+
+
+.box{
+    
+    /* box-shadow: 0px 0px 20px rgb(0, 0, 0); */
+    height: 85vh;
+    width: 85vw;
+    border-radius: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 10px;
+    padding: 10px;
+  
+    
+}
+
+.item{
+    
+    backdrop-filter: blur(3px);
+    /* border: 2px solid white; */
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px #0000009e;
+    border-radius: 50px;
+    border: 1px solid ;
+    color: #ffffff;
+    border-color: rgba(255, 255, 255, 0.4);    
+
+}
+
+#week{
+    grid-column-start: 1;
+    grid-column-end: 5;
+
+}
+
+#month{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
+
